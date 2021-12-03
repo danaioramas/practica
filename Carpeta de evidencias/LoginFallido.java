@@ -44,7 +44,7 @@ public class LoginFallido {
     assertThat(TextoDeseado,is(TextoRealizado));
   }
   
- /* @Test
+ @Test
   public void testLoginCorrecto() throws Exception {
     driver.get("https://es.uadyvirtual.uady.mx/login/index.php");
     driver.findElement(By.xpath("//section[@id='region-main']/div/div[2]/div/div/div/div/div/div")).click();
@@ -60,7 +60,7 @@ public class LoginFallido {
     String TextoDeseado="DANAI MARCELA ALPUCHE ORAMAS";
     assertThat(TextoDeseado,is(TextoRealizado));
   }
- */ 
+ 
   private void pause(long mils) {
   try {
   Thread.sleep(mils);
